@@ -1,0 +1,6 @@
+#!/bin/sh
+[ -n "$IPKG_INSTROOT" ] || {
+    /etc/init.d/k3s enable
+    /etc/init.d/k3s k3s_install
+    /etc/init.d/k3s start
+}

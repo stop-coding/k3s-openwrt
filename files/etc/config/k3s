@@ -1,0 +1,6 @@
+# The following settings require a restart of docker to take full effect, A reload will only have partial or no effect:
+config globals 'globals'
+    option opts '--disable=metrics-server'
+    option data_root '/opt/data/k3s/'
+
+
